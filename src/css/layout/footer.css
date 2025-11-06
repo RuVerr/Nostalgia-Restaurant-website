@@ -60,7 +60,8 @@
   text-align: center;
 }
 .create_by_link {
-  font-size: clamp(4px, 1vw, 8px);
+  font-size: 14px;
   color: var(--shade-ivory-text);
   width: 100%;
+  font-family: "SosGro_U";
 }
