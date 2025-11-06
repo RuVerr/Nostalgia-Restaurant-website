@@ -1,0 +1,27 @@
+/* Welcome__________________________________ */
+
+.welcome {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--background-shade-sand);
+}
+.welcome_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--gap-md);
+}
+.welcome_text_content {
+  display: grid;
+  gap: var(--gap-sm);
+}
+
+.welcome_img_box {
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+}
+.welcome_img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Welcome__________________________________ */

@@ -1,0 +1,30 @@
+.menu_list {
+  grid-template-columns: repeat(1, auto);
+  padding: var(--spacing-xxl) 0;
+}
+
+.header_form_content_popup {
+  top: -10%;
+}
+
+.main_menu_list_item {
+  display: block;
+}
+
+.main_menu_title_item {
+  white-space: wrap;
+}
+
+.main_menu_price_item {
+  border-bottom: none;
+  text-align: left;
+}
+
+.language_switcher {
+  position: static;
+  margin: 100% auto auto auto;
+}
+
+.language_switcher:nth-child(1){
+    display: none;
+}

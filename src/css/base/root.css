@@ -1,0 +1,100 @@
+:root {
+  /* Цвета текста */
+  --shade-ivory-text: #fafafa; /* Слоновая кость */
+}
+
+:root {
+  /* Цвета по тегам */
+  --shade-forest-text-h: #245a40; /* Темный зеленый */
+  --shade-forest-text-p: #245a40; /* Темный зеленый */
+  --shade-forest-text-a: #245a40; /* Темный зеленый */
+  --shade-forest-text-span: #245a40; /* Темный зеленый */
+  --shade-forest-text-a-hover: #5d715a; /* Темный зеленый */
+}
+
+:root {
+  /* Фоновые цвета */
+  --background-shade-sand: #f5f3ed; /* Светлый песочный */
+  --background-dark-green: #2c6e49; /* Темно-зеленый */
+  --background-ivory: #fafafa; /* Слоновая кость */
+}
+
+:root {
+  /* Button */
+  --shade-forest-text-button: #245a40; /* Темный зеленый */
+  --background-white-button: #fff;
+  --background-dark-green-button: #2c6e49; /* Темно-зеленый */
+  --background-text-white-button: #fff;
+  --font-xs-button: clamp(12px, 1vw, 18px);
+}
+
+/* Размеры шрифтов */
+:root {
+  --font-x: clamp(8px, 1vw, 18px);
+  --font-xs: clamp(12px, 1vw, 18px);
+  --font-sm: clamp(16px, 1.2vw, 22px);
+  --font-md: clamp(16px, 1.5vw, 26px);
+  --font-lg: clamp(18px, 2vw, 32px);
+  --font-xxl: clamp(24px, 3vw, 48px);
+}
+
+/* Отступы и промежутки */
+:root {
+  /* Расстояния (Spacing) */
+  --spacing-xs: clamp(4px, 1vw, 12px);
+  --spacing-md: clamp(12px, 2vw, 28px);
+  --spacing-lg: clamp(16px, 3vw, 36px);
+  --spacing-xxl: clamp(50px, 10vw, 100px);
+}
+
+/* Padding */
+:root {
+  /* --padding-xs: clamp(4px, 1vw, 12px); */
+  /* --padding-sm: clamp(8px, 1.5vw, 20px); */
+  /* --padding-md: clamp(12px, 2vw, 28px); */
+  --padding-lg: clamp(16px, 3vw, 36px);
+  --padding-xl: clamp(24px, 4vw, 50px);
+}
+
+/* Gap */
+:root {
+  /* --gap-xs: clamp(4px, 1vw, 12px); */
+  --gap-sm: clamp(8px, 1.5vw, 20px);
+  --gap-md: clamp(12px, 2vw, 28px);
+  /* --gap-lg: clamp(16px, 3vw, 36px); */
+  --gap-xl: clamp(24px, 4vw, 50px);
+}
+
+/* Радиусы границ */
+:root {
+  /* --border-radius-sm: clamp(4px, 0.5vw, 10px); */
+  /* --border-radius-md: clamp(8px, 1vw, 16px); */
+  --border-radius-lg: clamp(12px, 1.5vw, 24px);
+  --border-radius-xl: clamp(16px, 2vw, 32px);
+  /* --border-radius-full: 999px; */
+}
+
+/* Анимации */
+:root {
+  --transition-fast: 0.2s ease-in-out;
+}
+
+/* Ширина и высота */
+:root {
+  --width-xs: clamp(120px, 20vw, 240px);
+  --width-xs-v2: clamp(60px, 20vw, 200px);
+  --width-sm: clamp(160px, 25vw, 320px);
+  --width-sm-v2: clamp(25px, 6vw, 40px);
+  --width-md: clamp(200px, 30vw, 400px);
+  --width-lg: clamp(240px, 35vw, 480px);
+  --width-xl: clamp(280px, 40vw, 560px);
+  --width-xxl: clamp(70%, 40vw, 100%);
+
+  --height-xs: clamp(24px, 5vh, 40px);
+  --height-sm: clamp(32px, 6vh, 48px);
+  --height-md: clamp(40px, 7vh, 56px);
+  --height-lg: clamp(48px, 8vh, 64px);
+  --height-xl: clamp(56px, 9vh, 72px);
+  --height-xl-2: clamp(98px, 60vh, 400px);
+  --height-xxl: clamp(56px, 156vh, 700px);
+}

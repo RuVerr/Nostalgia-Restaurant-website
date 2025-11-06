@@ -1,0 +1,20 @@
+.header_form_content_popup{
+    width: 100%;
+    gap: 10px;
+}
+
+.input{
+    width: var(--width-xl);
+}
+.welcome_content {
+    grid-template-columns: 1fr;
+}
+.menu_list {
+    grid-template-columns: repeat(2, auto);
+    padding: var(--spacing-xxl) 0;
+    row-gap: var(--gap-xl);
+}
+.main_footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}

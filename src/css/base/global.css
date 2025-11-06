@@ -1,0 +1,249 @@
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+@font-face {
+  font-family: "SosGro_U";
+  src: url("../../fonts/ArianAMUSerif/arnamu_serif.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.title_global,
+.menu_title_global {
+  font-size: var(--font-xxl);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--shade-forest-text-h);
+  font-family: "SosGro_U";
+}
+
+.menu_title_global,
+.main_menu_title_global {
+  font-size: var(--font-sm);
+  text-align: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.title_global_welcome {
+  font-size: var(--font-xxl);
+  font-weight: 100;
+  font-family: "SosGro_U";
+}
+
+.paragraph_global {
+  font-size: var(--font-sm);
+  display: inline;
+  font-family: "SosGro_U";
+}
+
+.nostalgia_logo {
+  color: var(--shade-forest-text-h);
+  font-family: "SosGro_U";
+}
+
+.location_global_a {
+  color: var(--shade-forest-text-h);
+  text-decoration: underline;
+  font-family: "SosGro_U";
+}
+
+/* Footer location link */
+.location_global_a:nth-child(2) {
+  color: var(--shade-ivory-text);
+}
+
+.global_title_footer {
+  font-size: var(--font-xs);
+  color: var(--shade-ivory-text);
+  font-family: "SosGro_U";
+}
+
+.button {
+  font-size: var(--font-xs);
+  padding: 10px 20px;
+  border-radius: var(--border-radius-xl);
+  background-color: var(--background-dark-green);
+  color: var(--background-text-white-button);
+  border: 1px solid var(--background-dark-green);
+  text-transform: uppercase;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  font-family: "SosGro_U";
+  &:hover {
+    color: var(--shade-forest-text-button);
+    background-color: var(--background-white-button);
+  }
+}
+
+.link_global {
+  font-size: var(--font-sm);
+  text-transform: uppercase;
+  color: var(--shade-forest-text-a);
+  font-family: "SosGro_U";
+}
+
+.link_global::after {
+  content: "";
+  display: block;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--background-dark-green);
+  transition: 0.1s ease-in;
+  width: 0;
+}
+
+.link_global:hover::after {
+  width: 100%;
+}
+
+/* ============== Глобальные стили ==============*/
+
+/* @font-face {
+    font-family: "SosGro_U";
+    src: url('../../fonts/ArianAMUSerif/arnamu_serif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-family{
+    font-family: "SosGro_U";
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.custom_container_footer{
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 10px;
+} */
+
+/* ============== Стили которые повторяются ============== */
+
+/* Цвета link */
+/* .contact_link,
+.contact_link_v2{
+    font-size: var(--font-xs);
+    color: var(--background-ivory);
+    border-bottom: 1px solid var(--background-ivory);
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.contact_link_v2{
+    color: var( --shade-forest-text-a);
+    border-bottom: 1px solid var( --shade-forest-text-a);
+} */
+
+/* ============== Кнопки ==============*/
+/* .button{
+    font-size: var(--font-xs-button);
+    color: var(--background-white-button);
+    background-color: var(--shade-forest-text-button);
+    padding: 10px var(--padding-lg);
+    border-radius: 20px;
+    transition: .3s;
+    text-transform: uppercase;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--background-text-white-button);
+    color: var(--background-dark-green-button );
+} */
+
+/* ============================ Резервы ============================*/
+
+/* Шрифт__________________________________________________*/
+
+/* .text-transform-uppercase{
+    text-transform: uppercase;
+}
+
+.text-align-center{
+    text-align: center;
+} */
+/* Шрифт__________________________________________________*/
+
+/* Grid & Flex display_____________________________________________*/
+/* .display-block{
+    display: block
+} */
+
+/* .inherit{
+    display: inherit;
+} */
+/* .grid{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+} */
+
+/* .justify-space-around{
+    justify-content: space-around;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.align-items-center{
+    align-items: center;
+} */
+
+/* .align-items-baseline{
+    align-items: baseline;
+}
+
+.place-content-center{
+    place-content: center;
+} */
+/* Grid & Flex display_____________________________________________*/
+
+/* Position позиционирование________________________________*/
+/* .position-sticky{
+    position: sticky
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.inset{
+    inset: 0;
+} */
+/* Position позиционирование________________________________ */

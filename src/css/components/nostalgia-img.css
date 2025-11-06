@@ -1,0 +1,20 @@
+/* Nostalgia image__________________________________ */
+.nostalgia_img_sec {
+    width: 100vw;
+    height: var(--height-xl-2);
+    overflow: hidden;
+}
+.nostalgia_img_fig {
+    width: 100%;
+    height: 100%;
+}
+.nostalgia_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.reviews {
+    padding: var(--spacing-xxl) 0;
+    overflow: hidden;
+}
+/* Nostalgia image__________________________________ */

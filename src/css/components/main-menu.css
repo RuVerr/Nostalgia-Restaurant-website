@@ -1,0 +1,24 @@
+.main_menu {
+  padding-top: 150px;
+}
+
+.menu_content {
+  margin: var(--spacing-lg) 0;
+}
+
+.main_menu_title_item {
+  white-space: nowrap;
+  text-align: left;
+}
+
+.main_menu_list_item{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.main_menu_price_item{
+  width: 100%;
+  text-align: end;
+  border-bottom: 1px solid var(--background-dark-green);
+}

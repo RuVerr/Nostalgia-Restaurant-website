@@ -1,0 +1,31 @@
+/* Menu__________________________________ */
+
+.menu {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--background-ivory);
+}
+
+.menu_list {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(4, auto);
+  padding: var(--spacing-xxl) 0;
+}
+
+.menu_button_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu_list_item {
+  width: var(--width-xs-v2);
+}
+
+.menu_desc {
+  margin-top: var(--spacing-lg);
+}
+.food_text {
+  font-size: var(--font-xs);
+}
+
+/* Menu__________________________________ */

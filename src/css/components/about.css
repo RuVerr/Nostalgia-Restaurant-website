@@ -1,0 +1,21 @@
+/* About__________________________________ */
+
+.about {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--background-shade-sand);
+}
+
+.about_main {
+    padding: var(--spacing-md) 0;
+}
+
+.about_p_logo {
+    display: inline-block;
+    word-wrap: break-word;
+    font-family: initial;
+    font-size: var(--font-xs);
+    color: var(--shade-forest-text-p);
+    font-weight: 600;
+}
+
+/* About__________________________________ */
