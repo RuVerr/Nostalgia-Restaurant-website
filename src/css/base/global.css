@@ -24,7 +24,6 @@
 .menu_title_global,
 .main_menu_title_global {
   font-size: var(--font-sm);
-  text-align: inherit;
   text-align: center;
   text-decoration: none;
 }
@@ -65,7 +64,7 @@
 
 .button {
   font-size: var(--font-xs);
-  padding: 10px 20px;
+  padding: 10px 5px;
   border-radius: var(--border-radius-xl);
   background-color: var(--background-dark-green);
   color: var(--background-text-white-button);
@@ -78,6 +77,11 @@
     color: var(--shade-forest-text-button);
     background-color: var(--background-white-button);
   }
+}
+
+.button:nth-child(1){
+  padding: 10px 90px;
+
 }
 
 .link_global {

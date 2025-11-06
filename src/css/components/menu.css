@@ -18,7 +18,7 @@
   justify-content: center;
 }
 .menu_list_item {
-  width: var(--width-xs-v2);
+  width: 150px;
 }
 
 .menu_desc {
