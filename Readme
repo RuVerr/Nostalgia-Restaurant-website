@@ -1,0 +1,22 @@
+# Nostalgia Restaurant Website
+
+This is a real website project for the **Nostalgia Restaurant**.
+
+In this project, I was given full creative freedom, and the task was to make the website **beautiful and user-friendly**. I developed everything from scratch, strictly following **SOLID principles**.
+
+All the code was written in **vanilla JavaScript**, without using any external libraries. I manually implemented page translations and repeatedly adjusted the HTML structure to find the best solutions.
+
+The **design and layout** of the website were created entirely by me. I personally handled:
+
+- Structuring HTML multiple times for better solutions
+- Implementing functionality through classes and constructors
+- Designing the website interface and user experience
+- Following SOLID principles throughout the JavaScript code
+
+I organized all files and classes thoughtfully to ensure that the code remains **clear, maintainable, and understandable**, even years later.
+
+I really enjoyed this project, especially because many developers forget about using classes in JavaScript. My goal was to structure everything clearly and move towards an **ideal result** step by step.
+
+### Live Demo
+
+Check the live website here: [Nostalgia Restaurant on Netlify](https://nostalgia-rest.netlify.app/)
