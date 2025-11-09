@@ -45,6 +45,10 @@
   border-radius: var(--border-radius-xl);
 }
 
+.input_label {
+  font-family: "SosGro_U";
+}
+
 .close_header_button_popup {
   width: 30px;
   background-color: transparent;
@@ -74,6 +78,10 @@
   font-size: var(--font-xs);
 }
 
+.input_form{
+  position: relative;
+}
+
 .input {
   width: var(--width-sm);
   height: var(--height-md);
@@ -90,6 +98,7 @@ input:-webkit-autofill {
   -webkit-appearance: none;
 }
 .input_label {
+  position: absolute;
   top: 18px;
   left: 14px;
   display: grid;
@@ -102,7 +111,7 @@ input:-webkit-autofill {
 }
 .input:focus + label,
 .input:not(:placeholder-shown) + .input_label {
-  top: -30px;
+  top: -25px;
 }
 .submit_button {
   position: relative;

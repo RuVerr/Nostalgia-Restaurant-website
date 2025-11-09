@@ -3,6 +3,7 @@ export default class Slide {
     this.burger = burger;
 
     this.body = document.body;
+    this.html = document.documentElement;
     this.slideContent = document.getElementById("slideContentID");
     this.overlayBurgerMenu = document.getElementById("overlayBurgerMenuID");
     this.getBurgerElement = this.burger.getBurgerElement();
@@ -30,6 +31,7 @@ export default class Slide {
 
     // Отключаем скролл
     this.body.style.overflow = "hidden";
+    this.html.style.overflow = "hidden";
 
     // Добавляем/убираем классы для анимации
     this.burger.removeElement("slide_content_off", this.slideContent);
@@ -58,6 +60,7 @@ export default class Slide {
       () => {
         this.isAnimation = false;
         this.body.style.overflow = "";
+        this.html.style.overflow = "";
       },
       { once: true }
     );

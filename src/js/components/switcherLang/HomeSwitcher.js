@@ -8,6 +8,7 @@ export default class HomeSwitcher {
     this.description = document.querySelectorAll(".descLang");
     this.menuTitle = document.querySelectorAll(".menuTitleLang");
     this.button = document.querySelectorAll(".buttonLang");
+    this.labelTitle = document.querySelectorAll(".labelLang");
     this.footItem = document.querySelectorAll(".footLang");
   }
 
@@ -47,6 +48,12 @@ export default class HomeSwitcher {
     if (currentLang?.button) {
       this.button.forEach((el, index) => {
         el.textContent = currentLang.button[index];
+      });
+    }
+
+    if (currentLang?.labelTitle) {
+      this.labelTitle.forEach((el, index) => {
+        el.textContent = currentLang.labelTitle[index];
       });
     }
 

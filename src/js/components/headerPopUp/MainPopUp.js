@@ -43,7 +43,7 @@ export default class MainPopUp {
   closePopUp() {
     this.animations.deactivatePopUp();
 
-    this.headerPopUpForm.addEventListener("animationend", () => this.removePopUpFromDOM(), { once: true });
+    // this.headerPopUpForm.addEventListener("animationend", () => this.removePopUpFromDOM(), { once: true });
 
     this.headerPopUpForm.classList.remove("popUpAnim-active");
   }

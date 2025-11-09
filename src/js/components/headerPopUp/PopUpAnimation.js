@@ -3,10 +3,14 @@ export default class PopUpAnimation {
     this.mainPopUp = mainPopUp;
     this.headerPopUpForm = mainPopUp.headerPopUpForm;
     this.overlay = mainPopUp.overlayHeaderPopup;
+    this.body = document.body;
+    this.html = document.documentElement;
   }
 
   activatePopUp() {
     this.overlay.style.visible = "visibility";
+    this.body.style.overflow = "hidden";
+    this.html.style.overflow = "hidden";
 
     requestAnimationFrame(() => {
       this.overlay.classList.add("overlay_active");
@@ -24,6 +28,8 @@ export default class PopUpAnimation {
 
     setTimeout(() => {
       overlayHeaderPopup.classList.add("overlay_off");
+      this.body.style.overflow = "";
+      this.html.style.overflow = "";
     }, 500);
   }
 }

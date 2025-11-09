@@ -20,7 +20,7 @@ export const homeTranslation = {
       "All roads lead to Nostalgia Music Place in this attractive place you will feel love and art a combination of live music and luxurious interiors. Live music here creates an unforgettable mood every day, and the light and quiet music change your day.",
       "Make sure that visiting this fun and exciting place will be unforgettable, where every moment is new and unique The atmosphere is above all."
     ],
-    // footTitle: ["Contact Information", "Working Hours", "Social Networks"],
+    labelTitle: ["Enter your first name", "Enter your last name", "Enter your phone number"],
     footerItem: [
       "Contact Information",
       "Address",
@@ -55,6 +55,7 @@ export const homeTranslation = {
       "Все дороги ведут в Nostalgia Music Place. В этом привлекательном месте вы почувствуете любовь и искусство — сочетание живой музыки и роскошного интерьера. Живая музыка здесь создаёт незабываемое настроение каждый день, а лёгкая тихая музыка меняет ваш день.",
       "Убедитесь, что посещение этого весёлого и увлекательного места будет незабываемым, где каждый момент новый и уникальный. Атмосфера — превыше всего."
     ],
+    labelTitle: ["Введите Ваше имя", "Введите фамилию", "Введите номер телефона"],
     footerItem: [
       "Контактная информация",
       "Адрес",
@@ -89,6 +90,7 @@ export const homeTranslation = {
       "Բոլոր ճանապարհները տանում են Nostalgia Music Place։ Այս հմայիչ վայրում դուք կզգաք սեր և արվեստ՝ կենդանի երաժշտության և շքեղ ինտերիերի համադրությամբ։ Այստեղ կենդանի երաժշտությունը ամեն օր ստեղծում է անզուգական տրամադրություն, իսկ մեղմ և հանգիստ երաժշտությունը փոխում է ձեր օրը։",
       "Համոզվեք, որ այս զվարճալի և հետաքրքիր վայրը կդառնա անմոռանալի փորձառություն, որտեղ յուրաքանչյուր պահ նոր և յուրահատուկ է։ Մթնոլորտը՝ ամեն ինչից բարձր։"
     ],
+    labelTitle: ["Մուտքագրեք Ձեր անունը", "Մուտքագրեք Ձեր ազգանունը", "Մուտքագրեք Ձեր հեռախոսահամարը"],
     footerItem: [
       "Կոնտակտային տեղեկություն",
       "Հասցե",

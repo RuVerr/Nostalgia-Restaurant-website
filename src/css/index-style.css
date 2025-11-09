@@ -1,7 +1,7 @@
 /* === Base === */
-@import url("./base/reset.css");
-@import url("./base/global.css");
-@import url("./base/root.css");
+@import url("./css-base/reset.css");
+@import url("./css-base/global.css");
+@import url("./css-base/root.css");
 
 /* === Components === */
 @import url("./css-components/header.css");
