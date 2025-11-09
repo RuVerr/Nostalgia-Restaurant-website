@@ -49,29 +49,21 @@
 
 /* Padding */
 :root {
-  /* --padding-xs: clamp(4px, 1vw, 12px); */
-  /* --padding-sm: clamp(8px, 1.5vw, 20px); */
-  /* --padding-md: clamp(12px, 2vw, 28px); */
   --padding-lg: clamp(16px, 3vw, 36px);
   --padding-xl: clamp(24px, 4vw, 50px);
 }
 
 /* Gap */
 :root {
-  /* --gap-xs: clamp(4px, 1vw, 12px); */
   --gap-sm: clamp(8px, 1.5vw, 20px);
   --gap-md: clamp(12px, 2vw, 28px);
-  /* --gap-lg: clamp(16px, 3vw, 36px); */
   --gap-xl: clamp(24px, 4vw, 50px);
 }
 
 /* Радиусы границ */
 :root {
-  /* --border-radius-sm: clamp(4px, 0.5vw, 10px); */
-  /* --border-radius-md: clamp(8px, 1vw, 16px); */
   --border-radius-lg: clamp(12px, 1.5vw, 24px);
   --border-radius-xl: clamp(16px, 2vw, 32px);
-  /* --border-radius-full: 999px; */
 }
 
 /* Анимации */

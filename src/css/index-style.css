@@ -1,0 +1,20 @@
+/* === Base === */
+@import url("./base/reset.css");
+@import url("./base/global.css");
+@import url("./base/root.css");
+
+/* === Components === */
+@import url("./css-components/header.css");
+@import url("./css-components/carousel.css");
+@import url("./css-components/welcome.css");
+@import url("./css-components/menu.css");
+@import url("./css-components/about.css");
+@import url("./css-components/nostalgia-img.css");
+@import url("./css-components/reviews.css");
+@import url("./css-components/swithcer-lang.css");
+@import url("./css-components/main-menu.css");
+@import url("./css-components/footer.css");
+
+/* === Animation === */
+@import url("./css-animation/header-animation.css");
+@import url("./css-animation/intro-courusel-animation.css");
