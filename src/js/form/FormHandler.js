@@ -1,14 +1,13 @@
 export default class FormHandler {
   constructor() {
-    this.body = document.body
+    this.body = document.body;
+    this.html = document.documentElement;
     this.form = document.getElementById("telegram_formId");
     this.userTel = document.getElementById("userTel");
     this.uName = document.getElementById("uName");
     this.lastName = document.getElementById("lastName");
     this.headerPopUpForm = document.getElementById("headerPopUpFormID");
-    this.submitHeaderButtonPopupID = document.getElementById(
-      "submitHeaderButtonPopupID"
-    );
+    this.submitHeaderButtonPopupID = document.getElementById("submitHeaderButtonPopupID");
     this.overlayHeaderPopup = document.getElementById("overlayHeaderPopup");
 
     this.armenianPhoneRegex = /^(\+374|0)\d{1,2}[- ]?\d{3}[- ]?\d{3}$/;
@@ -21,26 +20,14 @@ export default class FormHandler {
     this.form?.addEventListener("submit", this.handleSubmit.bind(this));
     this.form?.addEventListener("keydown", this.handleEnterSubmit.bind(this));
 
-    this.userTel?.addEventListener(
-      "keypress",
-      this.validatePhoneKeypress.bind(this)
-    );
+    this.userTel?.addEventListener("keypress", this.validatePhoneKeypress.bind(this));
     this.userTel?.addEventListener("input", this.validatePhoneInput.bind(this));
 
-    this.uName?.addEventListener(
-      "keydown",
-      this.validateLetterKeypress.bind(this)
-    );
+    this.uName?.addEventListener("keydown", this.validateLetterKeypress.bind(this));
     this.uName?.addEventListener("input", this.validateLetterInput.bind(this));
 
-    this.lastName?.addEventListener(
-      "keydown",
-      this.validateLetterKeypress.bind(this)
-    );
-    this.lastName?.addEventListener(
-      "input",
-      this.validateLetterInput.bind(this)
-    );
+    this.lastName?.addEventListener("keydown", this.validateLetterKeypress.bind(this));
+    this.lastName?.addEventListener("input", this.validateLetterInput.bind(this));
   }
 
   // Обработчик отправки формы
@@ -56,7 +43,7 @@ export default class FormHandler {
     const formData = {
       uName: this.uName.value.trim(),
       lastName: this.lastName.value.trim(),
-      userTel: this.userTel.value.trim(),
+      userTel: this.userTel.value.trim()
     };
 
     try {
@@ -77,7 +64,7 @@ export default class FormHandler {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         mode: "no-cors",
-        body: JSON.stringify(formData),
+        body: JSON.stringify(formData)
       }
     );
   }
@@ -112,9 +99,8 @@ export default class FormHandler {
       this.headerPopUpForm.addEventListener(
         "animationend",
         () => {
-          this.overlayHeaderPopup.remove();
-          this.headerPopUpForm.remove();
-          this.body.style.overflow = ""
+          this.body.style.overflow = "";
+          this.html.style.overflow = "";
         },
         { once: true }
       );

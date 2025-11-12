@@ -22,14 +22,12 @@ export default class PopUpAnimation {
   }
 
   deactivatePopUp() {
-    const { headerPopUpForm, overlayHeaderPopup } = this.mainPopUp;
+    this.headerPopUpForm.classList.add("popUpAnim-off");
 
-    headerPopUpForm.classList.add("popUpAnim-off");
-
-    setTimeout(() => {
-      overlayHeaderPopup.classList.add("overlay_off");
+    document.addEventListener("animationend", () => {
+      this.overlayHeaderPopup.classList.add("overlay_off");
       this.body.style.overflow = "";
       this.html.style.overflow = "";
-    }, 500);
+    });
   }
 }
