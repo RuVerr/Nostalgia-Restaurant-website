@@ -35,11 +35,11 @@
 
 .header_form_content_popup {
   display: grid;
-  position: absolute;
-  top: 21%;
+  position: fixed;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%, -200%);
   z-index: 8;
-  transform: translate(-50%, -129%);
   width: var(--width-xxl);
   background: var(--background-dark-green);
   border-radius: var(--border-radius-xl);
@@ -78,7 +78,7 @@
   font-size: var(--font-xs);
 }
 
-.input_form{
+.input_form {
   position: relative;
 }
 

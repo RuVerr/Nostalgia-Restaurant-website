@@ -139,18 +139,18 @@
 }
 @keyframes popUpAnim-active {
   0% {
-    transform: translate(-50%, -129%);
+     transform: translate(-50%, -200%);
   }
   100% {
-    transform: translate(-50%, 14%);
+    transform: translate(-50%, -50%);
   }
 }
 @keyframes popUpAnim-off {
   0% {
-    transform: translate(-50%, 14%);
+    transform: translate(-50%, -50%);
   }
   100% {
-    transform: translate(-50%, -129%);
+    transform: translate(-50%, -200%);
   }
 }
 
